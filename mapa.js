@@ -1,13 +1,21 @@
-const interactivos = document.querySelectorAll(".interactivo");
 
-interactivos.forEach(item => { item.addEventListener("mouseenter", () => {
-    item.style.opacity = 1;   // fade-in
+const txMateria = document.getElementById("tx-materia");
+if (txMateria) {
+  txMateria.addEventListener("click", () => {
+    window.location.href = "textos.html?id=0";   
   });
+}
 
-   item.addEventListener("click", () => {
-    const destino = item.getAttribute("data-url");
-    if (destino) {
-      window.location.href = destino;
-    }
-  });
+const cosasHuella = document.getElementById("cosas-huella");
+cosasHuella.addEventListener("click", (e) => {
+e.stopPropagation();
+window.location.href = "imagenes.html";
 });
+
+cosasHuella.addEventListener("mouseenter", () => {
+    cosasHuella.style.opacity = "1";
+  });
+
+  cosasHuella.addEventListener("mouseleave", () => {
+    cosasHuella.style.opacity = "0.2";
+  });
