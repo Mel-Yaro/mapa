@@ -21,18 +21,18 @@ h1 {
     font-size: 7vh;
     top: 50%;
   left: 50%;
-  width: 60%;
+  width: 50%;
 }
 
 p {
     font-family: 'roboto';
     font-weight: lighter;
-    text-align: right;
+    text-align: left;
     margin: 1vh;
     font-size: 3vh;
      top: 50%;
   left: 50%;
-  width: 60%;
+  width: 50%;
 }
 .btn-inicio, .btn-colecciones {
     font-family: 'roboto';

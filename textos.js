@@ -31,6 +31,7 @@ const parrafosTexto = [
 "Los caminos trazados a punta de pala y pica pueden ser difuminados en principio por la maleza. No desaparecen de inmediato. Una población se considera sedentaria cuando interviene el espacio. Transforma el mundo, pero para hacerlo debe conocerlo. En “Textiles muiscas y guanes” Gladys Tavera y Carmen Urbina mencionan los aportes materiales son “fruto de la observación de la naturaleza, base de un complejo proceso cultural”. Se encuentran distintas maneras de activar el potencial de cambio que van más allá de la utilidad o un fin natural. El tiempo del entorno es asaltado y se convierte en parte del territorio. La intervención en el cambio natural de la materia crea nuevas realidades. A mitad de este año, hubo un incendio en la loma de al frente. Las autoridades no señalaron un culpable o motivo. Mi tía cree que el responsable lo hizo para ampliar sus cultivos. Lo que antes era una masa verde y espesa, ahora es una mancha violeta. Del otro lado del valle, en el sendero que conecta las fincas de la vereda hay una travesía particular. Es un hito en el camino. No existe un pilar o letrero que lo anuncio, pero para todos se llama “la cruz”. El nombre se basa en la forma de los senderos que se marcaron por las pisadas. Es una línea recta plana que se conecta de frente a la siguiente colina, donde se encuentran tres caminos más. Dos hacia los costados, por la falda de la montaña, el restante continuaba en la misma dirección de la travesía, atravesando de frente la montaña por su cresta. Las intervenciones pueden ser intencionales o involuntarias. Lo rural se construye constantemente con las manos y la palabra "
 ]
 const titulo = document.getElementById("nombre");
+const titulo1 = document.getElementById("nombre1");
 const parrafos = document.getElementById("parrafos");
 
 const parametros = new URLSearchParams(window.location.search);
@@ -40,6 +41,7 @@ const id = parseInt(parametros.get("id"));
 
 if (!isNaN(id) && titulos[id] && parrafosTexto[id]) {
     titulo.textContent = titulos[id];
+    titulo1.textContent = titulos[id];
     parrafos.textContent = parrafosTexto[id];
 } else {
    
