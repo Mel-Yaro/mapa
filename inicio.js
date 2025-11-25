@@ -12,15 +12,15 @@ boton.style.opacity = 1;
 boton.style.opacity = 0;
 }
 });
-// Ir a introducción al dar click en cualquier parte
+
 
 
 document.addEventListener("click", () => {
-window.location.href = "introduccion.html";
+window.location.href = "intro.html";
 });
 
 
-// Ir a colección al dar click en el botón
+
 
 
 boton.addEventListener("click", (e) => {
