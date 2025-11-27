@@ -23,17 +23,16 @@ const titulo1 = document.getElementById("nombre1");
 const imagen = document.getElementById("imagen");
 
 const titulos = [
-  "Título 0",
-  "Título 1",
-  "Título 2",
-  "Título 3",
-    "Título 4",
-    "Título 5",
-    "Título 6",
-    "Título 7",
-    "Título 8",
-    "Título 9",
-    "Título 10",
+  "Antes de llegar al pueblo. Un camino estendido para llegar a la casa del molino.",
+  "Puente caido.",
+  "Puente enterrado",
+  "Puente para un charco",
+    "Para conectar dos lomas.",
+    "Puente sin camino",
+    "Puente para no embarrarse",
+    "Gran puente",
+    "Puente para completar el camino",
+    "Puente al gallinero",
 ];
 
 const imagenes = [

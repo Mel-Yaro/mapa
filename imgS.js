@@ -23,22 +23,22 @@ const titulo1 = document.getElementById("nombre1");
 const imagen = document.getElementById("imagen");
 
 const titulos = [
-  "Título 0",
-  "Título 1",
-  "Título 2",
-  "Título 3",
-    "Título 4",
-    "Título 5",
-    "Título 6",
-    "Título 7",
-    "Título 8",
-    "Título 9",
-    "Título 10",
-    "Título 11",
-    "Título 12",
-    "Título 13",
-    "Título 14",
-    "Título 15"
+  "Vigas para la ruina del difunto Manuel.",
+"Ambuleto. Señal del vacío de la ruina.",
+"Banca para los ausentes.",
+"Tendedero de contenedores.",
+"Cajón boca arriba.",
+"Agua para terneros que ya no están.",
+"Red para pescar hojarasca.",
+"Refugio para el acero.",
+"Mochila con potencial de llenarse.",
+"Nido.",
+"Plato para sal.",
+"Sal para los terneros ausentes.",
+"Ambuleto para juego.",
+"Altar para el nacimiento.",
+"Mesa para los terneros ausentes.",
+"Zapatos para los visitantes.",
 ];
 
 const imagenes = [

@@ -23,18 +23,18 @@ const titulo1 = document.getElementById("nombre1");
 const imagen = document.getElementById("imagen");
 
 const titulos = [
-  "Título 0",
-  "Título 1",
-  "Título 2",
-  "Título 3",
-    "Título 4",
-    "Título 5",
-    "Título 6",
-    "Título 7",
-    "Título 8",
-    "Título 9",
-    "Título 10",
-    "Título 11"
+  "Molino.",
+  "Ruina cerrada.",
+  "No quedó ruina, solo la entrada.",
+  "Caída de la gloria.",
+    "La gloría.",
+    "Casa de Manuel.",
+    "Un bebedero.",
+    "Saliendo de la vereda.",
+    "A mitad de camino.",
+    "La gran ruina.",
+    "Antes de salir de Onzaga, de bloques de adobe.",
+    "Subiendo al paramo."
 ];
 
 const imagenes = [

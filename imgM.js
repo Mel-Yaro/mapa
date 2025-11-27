@@ -23,25 +23,25 @@ const titulo1 = document.getElementById("nombre1");
 const imagen = document.getElementById("imagen");
 
 const titulos = [
-  "Título 0",
-  "Título 1",
-  "Título 2",
-  "Título 3",
-    "Título 4",
-    "Título 5",
-    "Título 6",
-    "Título 7",
-    "Título 8",
-    "Título 9",
-    "Título 10",
-    "Título 11",
-    "Título 12",
-    "Título 13",
-    "Título 14",
-    "Título 15",
-    "Tanque de agua, al la",
-    "Título 17",
-    "Título 18"
+  "Listas para alimentar a fuego lento.",
+"Detrás de la casa.",
+"Para despejar el jardín.",
+"Para acabar con el jardín.",
+"Sin ramas y blandas.",
+"Marchitadas.",
+    "Debiles.",
+    "Secas y rectas.",
+    "Pocas.",
+    "Perdidas",
+    "Horizontales.",
+    "Verticales.",
+    "Juntas.",
+    "Gruesas.",
+    "Desordenadas.",
+    "Ordenadas.",
+    "Dispersadas.",
+    "Almacenadas.",
+    "Cadavericas."
 ];
 
 const imagenes = [
@@ -64,6 +64,7 @@ const imagenes = [
   "../mapa/archivos/fotos/marañas/rama16.jpg",
   "../mapa/archivos/fotos/marañas/rama17.jpg",
   "../mapa/archivos/fotos/marañas/rama18.jpg",
+
 ];
 
 const parametros = new URLSearchParams(window.location.search);

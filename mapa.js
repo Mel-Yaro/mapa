@@ -182,11 +182,8 @@ if (puente7) puente7.addEventListener("click", () => { window.location.href = "i
 const puente8 = document.getElementById("puente8");
 if (puente8) puente8.addEventListener("click", () => { window.location.href = "imgP.html?id=8"; });
 
-const puente9 = document.getElementById("puente9");
-if (puente9) puente9.addEventListener("click", () => { window.location.href = "imgP.html?id=9"; });
-
 const puente10 = document.getElementById("puente10");
-if (puente10) puente10.addEventListener("click", () => { window.location.href = "imgP.html?id=10"; });
+if (puente10) puente10.addEventListener("click", () => { window.location.href = "imgP.html?id=9"; });
 
 const puerta = document.getElementById("puerta");
 if (puerta) puerta.addEventListener("click", () => { window.location.href = "imgPU.html?id=0"; });
