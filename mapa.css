@@ -31,27 +31,27 @@ left: 2%;
 right: 2%;
 }
 
-
-.btn-colecciones {
-right: 20px;
-}
 .btn-inicio:hover, .btn-colecciones:hover {
 background: rgb(248, 223, 123);
 color: rgb(35, 12, 0);
 }
+
+
 .mapa-fondo {
-  /*background-image: url("archivos/fotos/fondomapa.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;*/
-    position: absolute;
+ 
+    /*position: absolute;
     width: 100%;
     height: 100vh;
     object-fit: cover;
   z-index: 1;
-   inset: 0;
+   inset: 0;*/
+
+   position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 1;
   
 }
 
@@ -62,9 +62,39 @@ color: rgb(35, 12, 0);
   overflow: hidden;
 }
 
+.agua,
+.guardar,
+.huellas,
+.marañas,
+.puentes,
+.puertas,
+.ruinas {
+    position: absolute;
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+    opacity: 0.85;
+    z-index: 20;
+}
+
+.agua:hover,
+.guardar:hover,
+.huellas:hover,
+.marañas:hover,
+.puentes:hover,
+.puertas:hover,
+.ruinas:hover {
+    opacity: 1;
+    transform: scale(1.08);
+}
 
 
-#tx-materia {
+
+
+
+/*#tx-materia {
   position: absolute;
   left: 50%;   
   top: 60%;
@@ -107,6 +137,26 @@ color: rgb(35, 12, 0);
   border-radius: 5px;
   cursor: pointer;
 }
+  */
+#tx-materia,
+#tx-lomas,
+#tx-asalto {
+    position: absolute;
+    z-index: 200;
+    padding: 6px 12px;
+    background: rgb(249, 242, 229);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    color: rgb(35, 12, 0);
+}
+
+#tx-materia { left: 50%; top: 60%; transform: translate(-50%, -50%); }
+#tx-lomas   { left: 10%; top: 40%; transform: translate(-50%, -50%); }
+#tx-asalto  { left: 30%; top: 20%; transform: translate(-50%, -50%); }
+
+
 .tx-materia:hover,.tx-lomas:hover,.tx-asalto:hover {
   background: rgb(248, 223, 123);
 color: rgb(35, 12, 0);
@@ -114,24 +164,3 @@ color: rgb(35, 12, 0);
  } 
 
 
-#cosas-huella,
-.cosas-huella {
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 30%;
-  top: 40%;
-  object-fit: contain;  
-  cursor: pointer;
-  opacity: 0.8;
-  transition: opacity 0.4s ease, transform 0.2s ease;
-  z-index: 40;          
-  display: block;
-}
-
-
-#cosas-huella:hover,
-.cosas-huella:hover {
-  opacity: 1;
-  transform: scale(1.08);
-}
