@@ -23,10 +23,11 @@ const titulo1 = document.getElementById("nombre1");
 const imagen = document.getElementById("imagen");
 
 const titulos = [
-  "Título 0",
-  "Título 1",
-  "Título 2",
-  "Título 3",
+    "0",
+  "Tanque para las vacas, se tapa con lodo y queda de camino a la  gloria",
+  "Manguera en medio del cambio, se la traga la tierra",
+  "Manguera larga que se sumerge en el barro humedo, el único rastro que deja es la misma dirección del camino",
+  "manguera que cuelga en la maleza, cargada de agua se trepa por la montaña",
     "Título 4",
     "Título 5",
     "Título 6",
