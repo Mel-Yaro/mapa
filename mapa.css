@@ -90,6 +90,115 @@ color: rgb(35, 12, 0);
     transform: scale(1.08);
 }
 
+#agua1  { left: 72%; top: 11%; transform: translate(-50%, -50%); }
+#agua2  { left: 39%; top: 84%; transform: translate(-50%, -50%); }
+#agua3  { left: 14%; top: 57%; transform: translate(-50%, -50%); }
+#agua4  { left: 93%; top: 22%; transform: translate(-50%, -50%); }
+#agua5  { left: 51%; top: 76%; transform: translate(-50%, -50%); }
+#agua6  { left: 68%; top: 34%; transform: translate(-50%, -50%); }
+#agua7  { left: 27%; top: 48%; transform: translate(-50%, -50%); }
+#agua8  { left: 88%; top: 66%; transform: translate(-50%, -50%); }
+#agua9  { left: 33%; top: 19%; transform: translate(-50%, -50%); }
+#agua10 { left: 57%; top: 92%; transform: translate(-50%, -50%); }
+#agua11 { left: 46%; top: 29%; transform: translate(-50%, -50%); }
+#agua12 { left: 21%; top: 73%; transform: translate(-50%, -50%); }
+#agua13 { left: 95%; top: 41%; transform: translate(-50%, -50%); }
+#agua14 { left: 62%; top: 15%; transform: translate(-50%, -50%); }
+#agua15 { left: 18%; top: 63%; transform: translate(-50%, -50%); }
+#agua16 { left: 49%; top: 52%; transform: translate(-50%, -50%); }
+#agua17 { left: 83%; top: 37%; transform: translate(-50%, -50%); }
+#agua18 { left: 12%; top: 88%; transform: translate(-50%, -50%); }
+#agua19 { left: 74%; top: 46%; transform: translate(-50%, -50%); }
+#agua20 { left: 29%; top: 97%; transform: translate(-50%, -50%); }
+#agua21 { left: 91%; top: 53%; transform: translate(-50%, -50%); }
+#agua22 { left: 44%; top: 26%; transform: translate(-50%, -50%); }
+#agua23 { left: 16%; top: 32%; transform: translate(-50%, -50%); }
+#agua24 { left: 79%; top: 68%; transform: translate(-50%, -50%); }
+#agua25 { left: 55%; top: 13%; transform: translate(-50%, -50%); }
+#agua26 { left: 25%; top: 81%; transform: translate(-50%, -50%); }
+
+#soporte   { left: 63%; top: 27%; transform: translate(-50%, -50%); }
+#soporte1  { left: 14%; top: 72%; transform: translate(-50%, -50%); }
+#soporte2  { left: 81%; top: 46%; transform: translate(-50%, -50%); }
+#soporte3  { left: 39%; top: 18%; transform: translate(-50%, -50%); }
+#soporte4  { left: 58%; top: 83%; transform: translate(-50%, -50%); }
+#soporte5  { left: 22%; top: 55%; transform: translate(-50%, -50%); }
+#soporte6  { left: 74%; top: 33%; transform: translate(-50%, -50%); }
+#soporte7  { left: 11%; top: 88%; transform: translate(-50%, -50%); }
+#soporte8  { left: 47%; top: 61%; transform: translate(-50%, -50%); }
+#soporte9  { left: 90%; top: 29%; transform: translate(-50%, -50%); }
+#soporte10 { left: 33%; top: 79%; transform: translate(-50%, -50%); }
+#soporte11 { left: 67%; top: 12%; transform: translate(-50%, -50%); }
+#soporte12 { left: 26%; top: 44%; transform: translate(-50%, -50%); }
+#soporte13 { left: 85%; top: 57%; transform: translate(-50%, -50%); }
+#soporte14 { left: 52%; top: 91%; transform: translate(-50%, -50%); }
+#soporte15 { left: 18%; top: 23%; transform: translate(-50%, -50%); }
+
+#huella  { left: 41%; top: 67%; transform: translate(-50%, -50%); }
+#huella1 { left: 12%; top: 34%; transform: translate(-50%, -50%); }
+#huella2 { left: 78%; top: 29%; transform: translate(-50%, -50%); }
+#huella3 { left: 55%; top: 14%; transform: translate(-50%, -50%); }
+#huella4 { left: 23%; top: 81%; transform: translate(-50%, -50%); }
+#huella5 { left: 89%; top: 53%; transform: translate(-50%, -50%); }
+#huella6 { left: 36%; top: 22%; transform: translate(-50%, -50%); }
+#huella7 { left: 64%; top: 75%; transform: translate(-50%, -50%); }
+#huella8 { left: 17%; top: 48%; transform: translate(-50%, -50%); }
+
+#rama  { left: 22%; top: 41%; transform: translate(-50%, -50%); }
+#rama1 { left: 73%; top: 18%; transform: translate(-50%, -50%); }
+#rama2 { left: 48%; top: 66%; transform: translate(-50%, -50%); }
+#rama3 { left: 11%; top: 27%; transform: translate(-50%, -50%); }
+#rama4 { left: 59%; top: 82%; transform: translate(-50%, -50%); }
+#rama5 { left: 35%; top: 12%; transform: translate(-50%, -50%); }
+#rama6 { left: 87%; top: 45%; transform: translate(-50%, -50%); }
+#rama7 { left: 28%; top: 73%; transform: translate(-50%, -50%); }
+#rama8 { left: 64%; top: 31%; transform: translate(-50%, -50%); }
+#rama9 { left: 17%; top: 56%; transform: translate(-50%, -50%); }
+#rama10 { left: 91%; top: 22%; transform: translate(-50%, -50%); }
+#rama11 { left: 52%; top: 49%; transform: translate(-50%, -50%); }
+#rama12 { left: 39%; top: 87%; transform: translate(-50%, -50%); }
+#rama13 { left: 68%; top: 14%; transform: translate(-50%, -50%); }
+#rama14 { left: 24%; top: 63%; transform: translate(-50%, -50%); }
+#rama15 { left: 81%; top: 37%; transform: translate(-50%, -50%); }
+#rama16 { left: 46%; top: 25%; transform: translate(-50%, -50%); }
+#rama17 { left: 57%; top: 78%; transform: translate(-50%, -50%); }
+
+#puente   { left: 44%; top: 19%; transform: translate(-50%, -50%); }
+#puente1  { left: 12%; top: 58%; transform: translate(-50%, -50%); }
+#puente2  { left: 67%; top: 33%; transform: translate(-50%, -50%); }
+#puente3  { left: 29%; top: 74%; transform: translate(-50%, -50%); }
+#puente4  { left: 83%; top: 42%; transform: translate(-50%, -50%); }
+#puente5  { left: 51%; top: 87%; transform: translate(-50%, -50%); }
+#puente6  { left: 18%; top: 26%; transform: translate(-50%, -50%); }
+#puente7  { left: 93%; top: 15%; transform: translate(-50%, -50%); }
+#puente8  { left: 36%; top: 63%; transform: translate(-50%, -50%); }
+#puente9  { left: 72%; top: 54%; transform: translate(-50%, -50%); }
+#puente10 { left: 25%; top: 38%; transform: translate(-50%, -50%); }
+
+#puerta   { left: 47%; top: 23%; transform: translate(-50%, -50%); }
+#puerta1  { left: 11%; top: 49%; transform: translate(-50%, -50%); }
+#puerta2  { left: 72%; top: 61%; transform: translate(-50%, -50%); }
+#puerta3  { left: 34%; top: 82%; transform: translate(-50%, -50%); }
+#puerta4  { left: 88%; top: 37%; transform: translate(-50%, -50%); }
+#puerta5  { left: 29%; top: 14%; transform: translate(-50%, -50%); }
+#puerta6  { left: 63%; top: 27%; transform: translate(-50%, -50%); }
+#puerta7  { left: 19%; top: 71%; transform: translate(-50%, -50%); }
+#puerta8  { left: 54%; top: 56%; transform: translate(-50%, -50%); }
+#puerta9  { left: 81%; top: 18%; transform: translate(-50%, -50%); }
+
+#ruina    { left: 41%; top: 32%; transform: translate(-50%, -50%); }
+#ruina1   { left: 67%; top: 58%; transform: translate(-50%, -50%); }
+#ruina2   { left: 23%; top: 74%; transform: translate(-50%, -50%); }
+#ruina3   { left: 12%; top: 46%; transform: translate(-50%, -50%); }
+#ruina4   { left: 78%; top: 21%; transform: translate(-50%, -50%); }
+#ruina5   { left: 55%; top: 83%; transform: translate(-50%, -50%); }
+#ruina6   { left: 18%; top: 29%; transform: translate(-50%, -50%); }
+#ruina7   { left: 84%; top: 67%; transform: translate(-50%, -50%); }
+#ruina8   { left: 31%; top: 17%; transform: translate(-50%, -50%); }
+#ruina9   { left: 49%; top: 71%; transform: translate(-50%, -50%); }
+#ruina10  { left: 92%; top: 39%; transform: translate(-50%, -50%); }
+#ruina11  { left: 27%; top: 55%; transform: translate(-50%, -50%); }
+
 
 
 
