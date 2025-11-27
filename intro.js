@@ -1,6 +1,5 @@
-const paralelas = document.querySelectorAll('.img-paralela');
-const ondas = document.querySelectorAll('.img-onda');
-const cajas = document.querySelectorAll('.caja');
+const paralelas = document.querySelectorAll('.imagenes-paralelas img');
+const cajas = document.querySelectorAll('.caja-superior, .caja-inferior');
 
 function activarDesvanecimiento(imagenes) {
 imagenes.forEach((img, i) => {
@@ -27,7 +26,6 @@ return distanciaX < 200 && distanciaY < 200; // rango de activación
 
 
 let animacionParalelasActiva = false;
-let animacionOndasActiva = false;
 
 
 document.addEventListener('mousemove', (e) => {
@@ -38,14 +36,6 @@ if (!animacionParalelasActiva && cajas[0] && estaCerca(e, cajas[0])) {
 activarDesvanecimiento(paralelas);
 animacionInfinita(paralelas);
 animacionParalelasActiva = true;
-}
-
-
-
-if (!animacionOndasActiva && cajas[1] && estaCerca(e, cajas[1])) {
-activarDesvanecimiento(ondas);
-animacionInfinita(ondas);
-animacionOndasActiva = true;
 }
 });
 

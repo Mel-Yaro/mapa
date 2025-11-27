@@ -62,37 +62,18 @@ font-size: 3vh;
 font-weight: lighter;
 }
 
-#imagenes-paralelas {
+.imagenes-paralelas {
 position: absolute;
-top: 80px;
+top: 50%;
 left: 42%;
 display: flex;
-flex-direction: column;
-gap: 20px;
+flex-direction:row;
+gap: 2%;
 }
 
 
-.img-paralela {
-width: 120px;
+#img-paralela {
+width:20%;
 opacity: 0;
 transition: opacity 0.2s;
 }
-.imagenes-onda {
-position: absolute;
-bottom: 40px;
-left: 20%;
-display: flex;
-gap: 25px;
-align-items: center;
-}
-
-
-.img-onda {
-width: 120px;
-opacity: 0;
-transition: opacity 0.4s;
-}
-
-.nivel1 { transform: translateY(0px); }
-.nivel2 { transform: translateY(20px); }
-.nivel3 { transform: translateY(40px); }
