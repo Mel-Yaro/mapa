@@ -1,6 +1,6 @@
 body {
     
-    color: rgb(225, 239, 235);
+    color: rgb(246, 233, 209);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -27,6 +27,14 @@ p {
     font-size: 5vh;
 }
 
+.p1 {
+    font-family: 'roboto';
+    font-weight: lighter;
+    text-align: center;
+    margin: 1vh;
+    font-size: 3vh;
+}
+
 #fondo {
   position: fixed;
   top: 0;
@@ -36,6 +44,7 @@ p {
   object-fit: cover;
   z-index: -1;
   filter: saturate(3);
+   filter: brightness(0.7);
 }
 .contenido {
   position: absolute;

@@ -274,6 +274,13 @@ if (txMateria) {
   });
 }
 
+const txMapa = document.getElementById("tx-mapa");
+if (txMateria) {
+  txMapa.addEventListener("click", () => {
+    window.location.href = "textos.html?id=3";   
+  });
+}
+
 
 
   const btnInicio = document.getElementById('btn-inicio');
