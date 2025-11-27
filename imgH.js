@@ -36,15 +36,15 @@ const titulos = [
 ];
 
 const imagenes = [
-  "../mapa/archivos/fotos/huellas/huella.jpg",
-  "../mapa/archivos/fotos/huellas/huella1.jpg",
-  "../mapa/archivos/fotos/huellas/huella2.jpg",
-  "../mapa/archivos/fotos/huellas/huella3.jpg",
-  "../mapa/archivos/fotos/huellas/huella4.jpg",
-  "../mapa/archivos/fotos/huellas/huella5.jpg",
-  "../mapa/archivos/fotos/huellas/huella6.jpg",
-  "../mapa/archivos/fotos/huellas/huella7.jpg",
-  "../mapa/archivos/fotos/huellas/huella8.jpg",
+  "mapa/archivos/fotos/huellas/huella.jpg",
+  "mapa/archivos/fotos/huellas/huella1.jpg",
+  "mapa/archivos/fotos/huellas/huella2.jpg",
+  "mapa/archivos/fotos/huellas/huella3.jpg",
+  "mapa/archivos/fotos/huellas/huella4.jpg",
+  "mapa/archivos/fotos/huellas/huella5.jpg",
+  "mapa/archivos/fotos/huellas/huella6.jpg",
+  "mapa/archivos/fotos/huellas/huella7.jpg",
+  "mapa/archivos/fotos/huellas/huella8.jpg",
 ];
 
 const parametros = new URLSearchParams(window.location.search);
