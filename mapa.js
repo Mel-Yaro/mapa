@@ -281,6 +281,13 @@ if (txMateria) {
   });
 }
 
+const txReferencias = document.getElementById("tx-referencias");
+if (txReferencias) {
+  txReferencias.addEventListener("click", () => {
+    window.location.href = "textos.html?id=4";   
+  });
+}
+
 
 
   const btnInicio = document.getElementById('btn-inicio');
